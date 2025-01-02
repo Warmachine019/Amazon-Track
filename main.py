@@ -30,7 +30,7 @@ title = soup.select("div h1 span")[0].getText()
 print(title)
 
 #Sending the mail
-if price > lowest_price:
+if price < lowest_price:
     with smtplib.SMTP(smtp_address, port=587) as connection:
         connection.starttls()
         connection.login(test_email, app_password)
