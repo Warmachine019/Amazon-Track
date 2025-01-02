@@ -11,13 +11,8 @@ test_email = os.environ["EMAIL_ADDRESS"]
 app_password = os.environ["EMAIL_PASSWORD"]
 to_email = "TO_EMAIL_ID"
 
-URL = ("https://www.amazon.in/Google-Pixel-Watch-Smartwatch-Stainless/dp/B0BGX1CSRY/ref=sr_1_1?crid=3TYU2Q18JO2C4&dib"
-       "=eyJ2IjoiMSJ9.jBogAUyW-VMN-1ZzI9R4ZQXgNMnyjq1NFX1Y14gN9tahQnwb56Z-94TU7z7h2hoAI-8"
-       "-6Pm7BtpjoBhStdd8vzGN_oO8mk44iVBW8ncsFPjYt6x36GYIa52HEVjAwB8sTbX7J"
-       "-bTC5K18Mu6qOsodWs_LevL65oB92PhBmnahYAG77MT97nIL7-iTRmTlieaXqDvq-KdMjjePc_6UAxnOhDtzTzq95As0PBYnj8VXAM"
-       ".rWhXBcXbn1DDZj0-3EvocNYe3tPqqF4eoSCVjQQ35WM&dib_tag=se&keywords=pixel+watch&qid=1735807315&sprefix=pixel"
-       "+watc%2Caps%2C245&sr=8-1")
-lowest_price = 17000
+URL = "LINK_FOR_AMAZON_PRODUCT_PAGE
+lowest_price = "LOWEST_PRICE"
 
 response = requests.get(url=URL)
 webpage = response.text
