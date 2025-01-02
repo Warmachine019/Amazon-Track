@@ -9,7 +9,7 @@ load_dotenv()
 smtp_address = os.environ["SMTP_ADDRESS"]
 test_email = os.environ["EMAIL_ADDRESS"]
 app_password = os.environ["EMAIL_PASSWORD"]
-to_email = "spandan019@gmail.com"
+to_email = "TO_EMAIL_ID"
 
 URL = ("https://www.amazon.in/Google-Pixel-Watch-Smartwatch-Stainless/dp/B0BGX1CSRY/ref=sr_1_1?crid=3TYU2Q18JO2C4&dib"
        "=eyJ2IjoiMSJ9.jBogAUyW-VMN-1ZzI9R4ZQXgNMnyjq1NFX1Y14gN9tahQnwb56Z-94TU7z7h2hoAI-8"
