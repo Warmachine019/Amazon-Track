@@ -3,7 +3,6 @@ import smtplib
 import os
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-
 load_dotenv()
 
 smtp_address = os.environ["SMTP_ADDRESS"]
